@@ -6,6 +6,11 @@ The platform combines interactive mapping, applied machine learning, AI-powered 
 Unlike traditional static map systems, RainLog dynamically evaluates route conditions and helps users identify safer travel paths using live geospatial intelligence.
 
 Platforms
+IMPORTANT NOTE: 
+The backend is currently deployed on Render free tier.
+Because free-tier instances may go idle after inactivity, the first API request can take around 1–2 minutes to respond while the backend wakes up.
+After startup, the application responds normally.
+Thanks for your patience.
 
 Web:
 https://rain-log.vercel.app
