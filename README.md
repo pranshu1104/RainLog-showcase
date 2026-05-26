@@ -1,98 +1,192 @@
 # RainLog
-RainLog is a flood-aware navigation application built to help users identify safer routes during heavy rainfall and urban waterlogging.
+RainLog is a full-stack intelligent geospatial navigation and urban waterlogging monitoring platform designed to help users analyze road conditions, visualize route risk, and navigate more safely during heavy rain.
 
-The app provides an interactive map experience where users can search destinations, view route risk visually, and receive quick flood-related assistance while traveling.
+The platform combines interactive mapping, applied machine learning, AI-powered contextual assistance, cloud deployment, and real-time route analysis to provide smart waterlogging-aware navigation.
 
-Live Demo:
+Unlike traditional static map systems, RainLog dynamically evaluates route conditions and helps users identify safer travel paths using live geospatial intelligence.
+
+Platforms
+
+Web:
 https://rain-log.vercel.app
 
-Project Showcase:
-Screenshots and documentation available in this repository.
+Android:
+https://github.com/pranshu1104/RainLog-showcase/raw/main/RAINLOG5.apk
 
 Features
 
-• Search any location on the map
+• Interactive map-based navigation
 
-• Interactive route visualization
+• Smart location search
 
-• Flood risk score for selected routes
+• Multiple route comparison
 
-• Route legend:
+• Route risk visualization
 
-Low risk
-Medium risk
-High risk
+• Color-coded severity indicators
 
-• Mobile-friendly responsive interface
+• AI-powered contextual assistant
 
-• Android app support
+• Responsive desktop + mobile UI
 
-• AI assistant for flood and route-related questions
+• Cloud-hosted backend APIs
 
-• Clean real-time map-based navigation experience
+• Persistent report storage
 
-Use Cases
+• Real-time route safety interpretation
 
-• Checking safer travel routes during rain
+System Overview
 
-• Avoiding flooded or risky areas
+RainLog processes location-based waterlogging reports and converts them into structured route intelligence.
 
-• Quick route awareness before leaving
+The platform enables users to:
 
-• Mobile access during travel
+• search locations
 
-Tech Stack
+• compare alternate travel routes
+
+• visualize waterlogging severity
+
+• receive safer navigation suggestions
+
+• interact with an AI assistant for route guidance
 
 Frontend
-• React
-• JavaScript
-• CSS
 
-Mapping
-• Leaflet
+RainLog provides a responsive geospatial interface for:
+
+• interactive route visualization
+
+• dynamic map overlays
+
+• location search
+
+• route comparison
+
+• risk-aware navigation display
+
+Backend
+
+The backend powers:
+
+• report ingestion
+
+• prediction workflows
+
+• route risk evaluation
+
+• API-driven frontend communication
+
+• real-time route intelligence
+
+Database
+
+Persistent storage supports:
+
+• report history
+
+• location-based records
+
+• structured route data
+
+• production-ready data management
+
+Core Technologies
+
+Backend
+
+• Java 17
+
+• Spring Boot
+
+• Spring Data JPA
+
+• Hibernate
+
+• REST APIs
+
+• PostgreSQL
+
+• Docker
+
+• Render
+
+Frontend
+
+• React.js
+
+• React Leaflet
+
 • OpenStreetMap
 
-Deployment
+• JavaScript
+
+• CSS
+
 • Vercel
 
-Platform
-• Web
-• Android (packaged build)
+AI & Intelligence
 
-Screenshots
+• Gemini API
 
-Add screenshots here:
+• Applied Machine Learning
 
-Home Screen
+• Geospatial Analytics
 
-Map + Route View
+• Route Risk Prediction
 
-Flood Risk Panel
+Deployment
 
-AI Assistant
+• Vercel
 
-Project Status
+• Render
 
-MVP complete
+• Docker
 
-Current focus:
-• UI polishing
-• improved route accuracy
-• expanded data pipeline
-• future production enhancements
+Project Demonstrates
+
+• Full-stack engineering
+
+• Java backend development
+
+• REST API design
+
+• Cloud deployment
+
+• CI/CD workflows
+
+• Applied machine learning
+
+• AI integration
+
+• Geospatial systems
+
+• Interactive mapping
+
+• Frontend-backend integration
+
+• Database migration
+
+• Production deployment workflows
+
+Current Focus
+
+• Data pipeline expansion
+
+• Route intelligence improvements
+
+• Real-world data integration
+
+• UI refinement
 
 Note
 
-This repository is a public project showcase containing documentation, screenshots, and live demo access.
+This repository is a public project showcase containing documentation, screenshots, Android access, and live deployment links.
 
-Source code and internal implementation details are maintained privately.
+Core source code and internal implementation details are maintained privately.
 
 Author
 
 Pranshu Malhotra
 
-If you want one extra nice touch:
-below “Live Demo” add your APK link later too:
-
-Android APK:
-[add link here]
+B.Tech CSE | Java Backend Developer | AI & Geospatial Systems Enthusiast
